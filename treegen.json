@@ -1,0 +1,3532 @@
+{
+  "Microsoft.CSharp": {
+    "InternalCompilerError": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Unerwartete Ausnahme beim Binden eines dynamischen Vorgangs"
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "Excepción inesperada al enlazar una operación dinámica."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Une exception inattendue s'est produite lors de la liaison d'une opération dynamique"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Eccezione imprevista durante l'associazione di un'operazione dinamica"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "動的な操作をバインド中に、予期しない例外が発生しました"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "동적 작업을 바인딩하는 동안 예기치 않은 예외가 발생했습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "An unexpected exception occurred while binding a dynamic operation"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Возникло непредвиденное исключение при выполнении привязки динамической операции"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "绑定动态操作时出现异常"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "繫結動態作業時發生意外的例外狀況"
+      }
+    },
+    "BindRequireArguments": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Ein Aufruf ohne aufrufendes Objekt kann nicht gebunden werden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede enlazar la llamada sin un objeto de llamada."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible de lier l'appel sans objet appelant"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile associare la chiamata senza oggetto chiamante"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "呼び出し元オブジェクトのない呼び出しはバインドできません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "호출 개체가 없으면 호출을 바인딩할 수 없습니다."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Невозможно выполнить привязку вызова к невызывающему объекту"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法在没有调用对象的情况下绑定调用"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法繫結沒有呼叫物件的呼叫"
+      }
+    },
+    "BindCallFailedOverloadResolution": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Fehler bei der Überladungsauflösung"
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "Error en la resolución de sobrecarga."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Échec de la résolution de surcharge"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Risoluzione dell'overload non riuscita"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "オーバーロードの解決に失敗しました"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "오버로드 확인에 실패했습니다."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Сбой при разрешении перегрузки"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "重载决策失败"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "多載解析失敗"
+      }
+    },
+    "BindBinaryOperatorRequireTwoArguments": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Binäre Operatoren müssen mit zwei Argumenten aufgerufen werden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se pueden invocar operadores binarios con dos argumentos."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Les opérateurs binaires doivent être appelés avec deux arguments"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Gli operatori binari devono essere richiamati con due argomenti"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "二項演算子は 2 つの引数を指定して呼び出す必要があります"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "이항 연산자를 호출하려면 인수 두 개를 사용해야 합니다."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Бинарные операторы должны вызываться с использованием двух аргументов"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "必须使用两个参数调用二元运算符"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "必須以兩個引數叫用二元運算子"
+      }
+    },
+    "BindUnaryOperatorRequireOneArgument": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Unäre Operatoren müssen mit einem Argument aufgerufen werden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "Los operadores unarios deben invocarse con un argumento."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Les opérateurs unaires doivent être appelés à l'aide d'un seul argument"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Gli operatori unari devono essere richiamati con un solo argomento"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "単項演算子は 1 つの引数を指定して呼び出す必要があります"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "단항 연산자를 호출하려면 인수 한 개를 사용해야 합니다."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Унарные операторы должны быть вызваны с использованием одного аргумента"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "必须使用一个参数调用一元运算符"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "必須以一個引數叫用一元運算子"
+      }
+    },
+    "BindPropertyFailedMethodGroup": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Der Name \"{0}\" ist an eine Methode gebunden und kann nicht wie eine Eigenschaft verwendet werden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "El nombre '{0}' está enlazado a un método y no se puede usar como propiedad."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Le nom '{0}' est lié à une méthode et ne peut pas être utilisé comme une propriété"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Il nome '{0}' è associato a un metodo e non può essere utilizzato come una proprietà"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "名前 '{0}' はメソッドにバインドされており、プロパティのように使用することはできません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "이름 '{0}'은(는) 메서드에 바인딩되어 있으며 속성처럼 사용할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "The name '{0}' is bound to a method and cannot be used like a property"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Для имени \"{0}\" выполнена привязка к методу. Невозможно использовать его как свойство"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "名称“{0}”已绑定到某个方法，无法像属性一样使用"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "名稱 '{0}' 已繫結至一個方法，因此不能當成屬性使用"
+      }
+    },
+    "BindPropertyFailedEvent": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Das Ereignis \"{0}\" kann nur verwendet werden, auf der linken Seite des +"
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "El evento '{0}' sólo puede aparecer en el lado izquierdo de +"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "L'événement « {0} » ne peut apparaître sur le côté gauche de +"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "L'evento '{0}' può trovarsi soltanto sul lato sinistro di +"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "イベント '{0}' することができますの左側にのみ表示されます +"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "이벤트 ' (0) '의 왼쪽에만 나타날 수 있습니다 +"
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "The event '{0}' can only appear on the left hand side of +"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Событие «{0}» может появляться только на стороне левой руки +"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "事件 '{0}' 只能出现在左边的 +"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "事件 '{0}' 只能出現在左邊的 +"
+      }
+    },
+    "BindInvokeFailedNonDelegate": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Ein Nichtdelegattyp kann nicht aufgerufen werden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede invocar un tipo no delegado."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible d'appeler un type non-délégué"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile richiamare un tipo non delegato"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "非デリゲート型を呼び出すことはできません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "비대리자 형식을 호출할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Cannot invoke a non-delegate type"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Не удалось вызвать тип, не являющийся делегатом"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法调用非委托类型"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法叫用非委派型別"
+      }
+    },
+    "BindBinaryAssignmentRequireTwoArguments": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Binäre Operatoren können nicht mit einem Argument aufgerufen werden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se pueden invocar operadores binarios con un argumento."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible d'appeler les opérateurs binaires avec un argument"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile richiamare operatori binari con un solo argomento"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "1 つの引数を指定して二項演算子を呼び出すことはできません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "하나의 인수를 사용하여 이항 연산자를 호출할 수 없습니다."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Невозможно вызвать бинарные операторы с использованием одного аргумента"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法使用一个参数调用二元运算符"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法以一個引數叫用二元運算子"
+      }
+    },
+    "BindBinaryAssignmentFailedNullReference": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Für einen NULL-Verweis kann keine Memberzuweisung ausgeführt werden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede realizar la asignación de miembros en una referencia NULL."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible d'effectuer une assignation de membre sur une référence null"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile eseguire un'assegnazione membro su un riferimento Null"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "null 参照に対してメンバー割り当てを実行することはできません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "null 참조에 대해 멤버 할당을 수행할 수 없습니다."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Не удается выполнить присваивание члена по нулевой ссылке"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法对 null 引用执行成员赋值"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法對 null 參考進行成員指派"
+      }
+    },
+    "NullReferenceOnMemberException": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Die Laufzeitbindung kann für einen NULL-Verweis nicht ausgeführt werden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede realizar enlace en tiempo de ejecución en una referencia NULL."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible d'effectuer une liaison au moment de l'exécution sur une référence null"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile eseguire un'associazione di runtime su un riferimento Null"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "null 参照に対して実行時バインディングを実行することはできません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "null 참조에 대해 런타임 바인딩을 수행할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Cannot perform runtime binding on a null reference"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Не удается выполнить привязки исполняющей среды по нулевой ссылке"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法对 null 引用执行运行时绑定"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法對 null 參考進行執行階段繫結"
+      }
+    },
+    "BindCallToConditionalMethod": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Die {0}-Methode kann nicht dynamisch aufgerufen werden, da sie ein Conditional-Attribut enthält."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede invocar dinámicamente el método '{0}' porque tiene un atributo Conditional."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible d'appeler dynamiquement la méthode '{0}' car elle a un attribut Conditional"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile richiamare in modo dinamico il metodo '{0}' perché contiene un attributo Conditional"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "条件付き属性があるため、メソッド '{0}' を動的に呼び出すことはできません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' 메서드는 Conditional 특성이 있으므로 동적으로 호출할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Cannot dynamically invoke method '{0}' because it has a Conditional attribute"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Не удается динамически вызвать метод \"{0}\", так как у него есть условный атрибут"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法动态调用方法“{0}”，因为它具有 Conditional 特性"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法以動態方式叫用方法 '{0}'，因為它有 Conditional 屬性"
+      }
+    },
+    "BindToVoidMethodButExpectResult": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Der Typ \"void\" kann nicht implizit in \"object\" konvertiert werden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede convertir implícitamente el tipo 'void' en 'object'."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible de convertir implicitement le type 'void' en 'object'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile convertire il tipo 'void' in 'object' in modo implicito"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "型 'void' を 'object' に暗黙的に変換することはできません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "암시적으로 'void' 형식을 'object' 형식으로 변환할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Cannot implicitly convert type 'void' to 'object'"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Нельзя неявно преобразовать тип \"void\" to \"object\""
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法将类型“void”隐式转换为“object”"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法將 'void' 型別隱含轉換為 'object' 型別"
+      }
+    },
+    "BadBinaryOps": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Der {0}-Operator kann nicht auf Operanden vom Typ \"{1}\" und \"{2}\" angewendet werden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "El operador '{0}' no se puede aplicar a operandos del tipo '{1}' y '{2}'"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible d'appliquer l'opérateur '{0}' aux opérandes de type '{1}' et '{2}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile applicare l'operatore '{0}' su operandi di tipo '{1}' e '{2}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "演算子 '{0}' を '{1}' と '{2}' 型のオペランドに適用することはできません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' 연산자는 '{1}' 및 '{2}' 형식의 피연산자에 적용할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Operator '{0}' cannot be applied to operands of type '{1}' and '{2}'"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Не удается применить оператор \"{0}\" к операндам типа \"{1}\" и \"{2}\""
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "运算符“{0}”无法应用于“{1}”和“{2}”类型的操作数"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法將運算子 '{0}' 套用至型別 '{1}' 和 '{2}' 的運算元"
+      }
+    },
+    "BadIndexLHS": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Eine Indizierung mit [] kann nicht auf einen Ausdruck vom Typ \"{0}\" angewendet werden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede aplicar la indización con [] a una expresión del tipo '{0}'"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible d'appliquer l'indexation à l'aide de [] à une expression de type '{0}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile applicare l'indicizzazione con [] a un'espressione di tipo '{0}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "角かっこ [] 付きインデックスを '{0}' 型の式に適用することはできません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "[]을 사용하는 인덱싱을 '{0}' 형식의 식에 적용할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Cannot apply indexing with [] to an expression of type '{0}'"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Невозможно применить индексирование через [] к выражению типа \"{0}\""
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法将带 [] 的索引应用于“{0}”类型的表达式"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法套用有 [] 的索引至型別 '{0}' 的運算式"
+      }
+    },
+    "BadIndexCount": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Falsche Indexanzahl in []. {0} wurde erwartet"
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "Número incorrecto de índices dentro de []; se esperaba '{0}'"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Nombre d'index incorrects dans [], '{0}' attendu"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Numero di indici errato in [], previsto '{0}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "角かっこ [] 内のインデックス数が正しくありません。正しい数は '{0}' です"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "[] 내부의 인덱스 수가 잘못되었습니다. '{0}'개가 필요합니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Wrong number of indices inside []; expected '{0}'"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Неверное количество индексов внутри []; ожидалось \"{0}\""
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "[] 内的索引数错误；应为“{0}”"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "[] 內的索引數目錯誤; 必須是 '{0}'"
+      }
+    },
+    "BadUnaryOp": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Der {0}-Operator kann nicht auf einen Operanden vom Typ \"{1}\" angewendet werden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "El operador '{0}' no se puede aplicar al operando del tipo '{1}'"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible d'appliquer l'opérateur '{0}' à un opérande de type '{1}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile applicare l'operatore '{0}' sull'operando di tipo '{1}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "演算子 '{0}' は '{1}' 型のオペランドに適用できません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' 연산자는 '{1}' 형식의 피연산자에 적용할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Operator '{0}' cannot be applied to operand of type '{1}'"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Не удается применить операнд \"{0}\" типа \"{1}\""
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "运算符“{0}”无法应用于“{1}”类型的操作数"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法將運算子 '{0}' 套用至型別 '{1}' 的運算元"
+      }
+    },
+    "NoImplicitConv": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Der {0}-Typ kann nicht implizit in {1} konvertiert werden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede convertir implícitamente el tipo '{0}' en '{1}'."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible de convertir implicitement le type '{0}' en '{1}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile convertire in modo implicito il tipo '{0}' in '{1}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "型 '{0}' を '{1}' に暗黙的に変換できません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "암시적으로 '{0}' 형식을 '{1}' 형식으로 변환할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Cannot implicitly convert type '{0}' to '{1}'"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Не удается неявно преобразовать тип \"{0}\" в \"{1}\""
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法将类型“{0}”隐式转换为“{1}”"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法將型別 '{0}' 隱含轉換為 '{1}'"
+      }
+    },
+    "NoExplicitConv": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Der {0}-Typ kann nicht in {1} konvertiert werden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede convertir el tipo '{0}' en '{1}'"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible de convertir le type « {0} » pour « {1} »"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile convertire il tipo '{0}' a '{1}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "型 '{0}' を '{1}' に変換できません。"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' 형식을 '{1}' 형식으로 변환할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Cannot convert type '{0}' to '{1}'"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Невозможно преобразовать тип \"{0}\" в \"{1}\""
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "不能转换类型 '{0}' 到 '{1}'"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "不能轉換類型 '{0}' 到 '{1}'"
+      }
+    },
+    "ConstOutOfRange": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Der Konstantenwert \"{0}\" kann nicht in {1} konvertiert werden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "El valor constante '{0}' no se puede convertir en '{1}'"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible de convertir la valeur de constante '{0}' en '{1}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile convertire il valore costante '{0}' in '{1}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "定数値 '{0}' を '{1}' に変換できません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "상수 값 '{0}'을(를) '{1}'(으)로 변환할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Constant value '{0}' cannot be converted to a '{1}'"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Постоянное значение \"{0}\" не может быть преобразовано в \"{1}\""
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "常量值“{0}”无法转换为“{1}”"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法將常數值 '{0}' 轉換為 '{1}'"
+      }
+    },
+    "AmbigBinaryOps": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Der {0}-Operator ist bei Operanden vom Typ \"{1}\" und \"{2}\" mehrdeutig."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "El operador '{0}' es ambiguo en operandos del tipo '{1}' y '{2}'"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "L'opérateur '{0}' est ambigu pour des opérandes de type '{1}' et '{2}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "L'operatore '{0}' è ambiguo su operandi di tipo '{1}' e '{2}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "型 '{1}' および '{2}' のオペランドの演算子 '{0}' があいまいです"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' 연산자가 모호하여 '{1}' 및 '{2}' 형식의 피연산자에 사용할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Operator '{0}' is ambiguous on operands of type '{1}' and '{2}'"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Оператор \"{0}\" является неоднозначным по отношению к операндам типа \"{1}\" и \"{2}\""
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "运算符“{0}”对于“{1}”和“{2}”类型的操作数具有二义性"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "運算子 '{0}' 用在型別 '{1}' 和 '{2}' 的運算元上時其意義會模稜兩可"
+      }
+    },
+    "AmbigUnaryOp": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Der {0}-Operator ist für einen Operanden vom Typ \"{1}\" mehrdeutig."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "El operador '{0}' es ambiguo con un operando del tipo '{1}'"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "L'opérateur '{0}' est ambigu pour un opérande de type '{1}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "L'operatore '{0}' è ambiguo su un operando di tipo '{1}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "演算子 '{0}' は型 '{1}' のオペランドに対してあいまいです"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' 연산자가 모호하여 '{1}' 형식의 피연산자에 사용할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Operator '{0}' is ambiguous on an operand of type '{1}'"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Оператор \"{0}\" является неоднозначным по отношению к операнду типа \"{1}\""
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "运算符“{0}”对于“{1}”类型的操作数具有二义性"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "運算子 '{0}' 用在型別 '{1}' 的運算元上時其意義會模稜兩可"
+      }
+    },
+    "ValueCantBeNull": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "NULL kann nicht in {0} konvertiert werden, da dieser Werttyp nicht auf NULL festgelegt werden kann."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede convertir NULL en '{0}' porque es un tipo de valor que no acepta valores NULL."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible de convertir null en '{0}', car il s'agit d'un type valeur qui n'autorise pas les valeurs null"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile convertire Null in '{0}' perché è un tipo di valore non nullable"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "Null 非許容の値型であるため、Null を '{0}' に変換できません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}'은(는) null을 허용하지 않는 값 형식이므로 null을 이 형식으로 변환할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Cannot convert null to '{0}' because it is a non-nullable value type"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Cannot convert null to \"{0}\" because it is a non-nullable value type"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法将 null 转换为“{0}”，因为后者是不可以为 null 的值类型"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法將 null 轉換成 '{0}'，因為它是不可為 null 的實值型別"
+      }
+    },
+    "NoSuchMember": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "{0} enthält keine Definition für {1}."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' no contiene una definición para '{1}'."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' ne contient pas de définition pour '{1}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' non contiene una definizione per '{1}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' に '{1}' の定義がありません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}'에 '{1}'에 대한 정의가 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' does not contain a definition for '{1}'"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "\"{0}\" не содержит определения для \"{1}\""
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "“{0}”未包含“{1}”的定义"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' 不包含 '{1}' 的定義"
+      }
+    },
+    "ObjectRequired": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Für das nicht statische Feld, die Methode oder die Eigenschaft \"{0}\" ist ein Objektverweis erforderlich."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "Se requiere una referencia de objeto para el campo, método o propiedad no estáticos '{0}'."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Une référence d'objet est requise pour la propriété, la méthode ou le champ non statique '{0}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "È necessario specificare un riferimento a un oggetto per la proprietà, il metodo o il campo non statico '{0}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "静的でないフィールド、メソッド、またはプロパティ '{0}' で、オブジェクト参照が必要です"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "static이 아닌 필드, 메서드 또는 속성 '{0}'에 개체 참조가 필요합니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "An object reference is required for the non-static field, method, or property '{0}'"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Для нестатического поля, метода или свойства \"{0}\" требуется ссылка на объект"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "对象引用对于非静态的字段、方法或属性“{0}”是必需的"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "需要有物件參考才能使用非靜態欄位、方法或屬性 '{0}'"
+      }
+    },
+    "AmbigCall": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Der Aufruf unterscheidet nicht eindeutig zwischen den folgenden Methoden oder Eigenschaften: {0} und {1}"
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "La llamada es ambigua entre los métodos o propiedades siguientes: '{0}' y '{1}'"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "L'appel est ambigu entre les méthodes ou propriétés suivantes : '{0}' et '{1}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Chiamata ambigua tra i seguenti metodi o proprietà: '{0}' e '{1}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "次のメソッドまたはプロパティ間で呼び出しが不適切です: '{0}' と '{1}'"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "다음 메서드 또는 속성 사이의 호출이 모호합니다. '{0}'과(와) '{1}'"
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "The call is ambiguous between the following methods or properties: '{0}' and '{1}'"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Понятие \"вызов\" трактуется неоднозначно в следующих методах или свойствах: \"{0}\" и \"{1}\""
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "以下方法或属性之间的调用具有二义性:“{0}”和“{1}”"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "在下列方法或屬性之間的呼叫模稜兩可: '{0}' 和 '{1}'"
+      }
+    },
+    "BadAccess": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Der Zugriff auf \"{0}\" ist aufgrund des Schutzgrads nicht möglich."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' no es accesible debido a su nivel de protección"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' est inaccessible en raison de son niveau de protection"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' è inaccessibile a causa del livello di protezione."
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' はアクセスできない保護レベルになっています"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "보호 수준 때문에 '{0}'에 액세스할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' is inaccessible due to its protection level"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "\"{0}\" недоступен из-за его уровня защиты"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "“{0}”不可访问，因为它具有一定的保护级别"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' 的保護層級導致無法對其進行存取"
+      }
+    },
+    "MethDelegateMismatch": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Keine Überladung für {0} stimmt mit dem Delegaten \"{1}\" überein."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "Ninguna sobrecarga correspondiente a '{0}' coincide con el '{1}' delegado"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Aucune surcharge pour '{0}' ne correspond au délégué '{1}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Nessun overload per '{0}' corrisponde al delegato '{1}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "デリゲート '{1}' に一致する '{0}' のオーバーロードはありません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{1}' 대리자와 일치하는 '{0}'에 대한 오버로드가 없습니다."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Нет перегрузки для \"{0}\", соответствующей делегату \"{1}\""
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "“{0}”没有与委托“{1}”匹配的重载"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' 沒有任何多載符合 '{1}' 委派"
+      }
+    },
+    "AssgLvalueExpected": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Die linke Seite einer Zuweisung muss eine Variable, eine Eigenschaft oder ein Indexer sein."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "La parte izquierda de una asignación debe ser una variable, una propiedad o un indizador"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "La partie gauche d'une assignation doit être une variable, une propriété ou un indexeur"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "La parte sinistra di un'assegnazione deve essere una variabile, una proprietà o un indicizzatore"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "代入式の左辺には変数、プロパティ、またはインデクサーを指定してください。"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "할당식의 왼쪽은 변수, 속성 또는 인덱서여야 합니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "The left-hand side of an assignment must be a variable, property or indexer"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Левая часть выражения присваивания должна быть переменной, свойством или индексатором"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "赋值号左边必须是变量、属性或索引器"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "指派的左方必須為變數、屬性或索引子"
+      }
+    },
+    "NoConstructors": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Für den {0}-Typ sind keine Konstruktoren definiert."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "El tipo '{0}' no tiene constructores definidos."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Aucun constructeur n'est défini pour le type '{0}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Per il tipo '{0}' non sono definiti costruttori"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "型 '{0}' のコンストラクターが定義されていません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' 형식에 정의된 생성자가 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "The type '{0}' has no constructors defined"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Для типа \"{0}\" нет определенных конструкторов"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "类型“{0}”未定义构造函数"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "型別 '{0}' 沒有已定義的建構函式"
+      }
+    },
+    "PropertyLacksGet": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Die Eigenschaft oder der Indexer \"{0}\" kann in diesem Kontext nicht verwendet werden, weil der get-Accessor fehlt."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "La propiedad o el indizador '{0}' no se puede usar en este contexto porque carece del descriptor de acceso get."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible d'utiliser la propriété ou l'indexeur '{0}' dans ce contexte, car il lui manque l'accesseur get"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile utilizzare la proprietà o l'indicizzatore '{0}' in questo contesto perché manca la funzione di accesso get."
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "get アクセサーがないため、プロパティまたはインデクサー '{0}' をこのコンテキストで使用することはできません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' 속성 또는 인덱서는 get 접근자가 없으므로 이 컨텍스트에서 사용할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "The property or indexer '{0}' cannot be used in this context because it lacks the get accessor"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "The property or indexer \"{0}\" cannot be used in this context because it lacks the get accessor"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "属性或索引器“{0}”不能用在此上下文中，因为它缺少 get 访问器"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法於此內容中使用屬性或索引子 '{0}'，因為其欠缺 get 存取子"
+      }
+    },
+    "ObjectProhibited": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Auf den Member \"{0}\" kann nicht mit einem Instanzverweis zugegriffen werden. Qualifizieren Sie ihn stattdessen mit einem Typnamen."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede obtener acceso al miembro '{0}' con una referencia de instancia; califíquelo con un nombre de tipo en su lugar."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Le membre '{0}' est inaccessible avec une référence d'instance ; qualifiez-le avec un nom de type"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile accedere al membro '{0}' con un riferimento a un'istanza. Qualificarlo con un nome di tipo"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "インスタンス参照でメンバー '{0}' にアクセスできません。代わりに型名を使用してください"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' 멤버는 인스턴스 참조를 사용하여 액세스할 수 없습니다. 대신 형식 이름을 사용하여 한정하십시오."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Member '{0}' cannot be accessed with an instance reference; qualify it with a type name instead"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Доступ к члену \"{0}\" через ссылку на экземпляр невозможен; вместо этого уточните его, указав имя типа"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法使用实例引用来访问成员“{0}”；请改用类型名来限定它"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "成員 '{0}' 無法以執行個體參考存取; 請使用型別名稱代替"
+      }
+    },
+    "AssgReadonly": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Einem schreibgeschützten Feld kann nichts zugewiesen werden (außer in einem Konstruktor oder Variableninitialisierer)."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede asignar un campo de sólo lectura (excepto en un constructor o inicializador de variable)"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Un champ readonly ne peut pas être assigné (sauf s'il appartient à un constructeur ou un initialiseur de variable)"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Un campo readonly non può essere assegnato (tranne che in un costruttore o in un inizializzatore di variabile)."
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "読み取り専用フィールドに割り当てることはできません (コンストラクター、変数初期化子では可 )。"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "읽기 전용 필드에는 할당할 수 없습니다. 단 생성자 또는 변수 이니셜라이저에서는 예외입니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "A readonly field cannot be assigned to (except in a constructor or a variable initializer)"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Присваивание значений доступному только для чтения полю допускается только в конструкторе и в инициализаторе переменных"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法对只读的字段赋值(构造函数或变量初始值指定项中除外)"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法指定唯讀欄位 (除非在建構函式或變數初始設定式)"
+      }
+    },
+    "RefReadonly": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Einem schreibgeschützten Feld kann kein Verweis und keine Ausgabe übergeben werden (außer in einem Konstruktor)."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede pasar out o ref a un campo de sólo lectura (excepto en un constructor)"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Un champ readonly ne peut pas être passé en ref ou out (sauf s'il appartient à un constructeur)"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Un campo readonly non può essere passato a un parametro ref o out (tranne che in un costruttore)"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "読み取り専用フィールドに ref または out を渡すことはできません (コンストラクターでは可 )。"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "읽기 전용 필드는 ref 또는 out으로 전달할 수 없습니다. 단 생성자에서는 예외입니다."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Доступное только для чтения поле может передаваться как параметр с ключевым словом ref или out только в конструкторе"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "对只读字段无法传递 ref 或 out 参数(构造函数中除外)"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "ref 或 out 無法傳遞唯讀欄位 (除非在建構函式)"
+      }
+    },
+    "AssgReadonlyStatic": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Einem statischen, schreibgeschützten Feld kann nichts zugewiesen werden (außer in einem statischen Konstruktor oder einem Variableninitialisierer)."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede asignar un campo de sólo lectura estático (excepto en un constructor estático o inicializador de variable)"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Un champ readonly statique ne peut pas être assigné (sauf s'il appartient à un constructeur statique ou un initialiseur de variable)"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile effettuare un'assegnazione a un campo statico in sola lettura (tranne che in un costruttore statico o in un inizializzatore di variabile)."
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "静的読み取り専用フィールドへの割り当てはできません (静的コンストラクターまたは変数初期化子では可)。"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "정적 읽기 전용 필드에는 할당할 수 없습니다. 단 정적 생성자 또는 변수 이니셜라이저에서는 예외입니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "A static readonly field cannot be assigned to (except in a static constructor or a variable initializer)"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Присваивание значений доступному только для чтения статическому полю допускается только в статическом конструкторе и в инициализаторе переменных"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法对静态只读字段赋值(静态构造函数或变量初始值设定项中除外)"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法指定靜態唯讀欄位 (除非在靜態建構函式或變數初始設定式)"
+      }
+    },
+    "RefReadonlyStatic": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Einem statischen, schreibgeschützten Feld kann kein Verweis und keine Ausgabe übergeben werden (außer in einem statischen Konstruktor)"
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede pasar out o ref a un campo estático de sólo lectura (excepto en un constructor estático)"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Un champ readonly statique ne peut pas être passé en ref ou out (sauf s'il appartient à un constructeur statique)"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile passare un parametro ref o out a un campo statico in sola lettura (tranne che in un costruttore statico)."
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "読み取り専用フィールドに ref または out を渡すことはできません (静的コンストラクターでは可)。"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "정적 읽기 전용 필드는 ref 또는 out으로 전달할 수 없습니다. 단 정적 생성자에서는 예외입니다."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Доступное только для чтения статическое поле может передаваться как параметр с ключевым словом ref или out только в статическом конструкторе"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法向静态只读字段传递 ref 或 out 参数(静态构造函数中除外)"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "ref 或 out 無法傳遞靜態唯讀欄位 (除非在靜態建構函式)"
+      }
+    },
+    "AssgReadonlyProp": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Für die Eigenschaft oder den Indexer \"{0}\" ist eine Zuweisung nicht möglich -- sie sind schreibgeschützt."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede asignar a la propiedad o el indizador '{0}' porque es de solo lectura"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible d'assigner la propriété ou l'indexeur '{0}' -- il est en lecture seule"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile assegnare un valore alla proprietà o all'indicizzatore '{0}' perché è di sola lettura"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "プロパティまたはインデクサー '{0}' は読み取り専用であるため、割り当てることはできません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' 속성 또는 인덱서는 읽기 전용이므로 할당할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Property or indexer '{0}' cannot be assigned to -- it is read only"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Невозможно присвоить значение свойству или индексатору \"{0}\" -- доступ только для чтения"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法为属性或索引器“{0}”赋值 - 它是只读的"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法指派屬性或索引子 '{0}' -- 其為唯讀"
+      }
+    },
+    "RefProperty": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Eine Eigenschaft oder ein Indexer kann nicht als out- oder ref-Parameter übergeben werden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "Una propiedad o un indizador no se puede pasar como parámetro out o ref"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Une propriété ou un indexeur ne peut pas être passé en tant que paramètre de sortie (out) ni de référence (ref)"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Una proprietà o un indicizzatore non può essere passato come parametro out o ref"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "プロパティまたはインデクサーを out か ref のパラメーターとして渡すことはできません。"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "속성 또는 인덱서는 out 또는 ref 매개 변수로 전달할 수 없습니다."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Свойства и индексаторы не могут передаваться как параметры с ключевыми словами out и ref"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "属性或索引器不得作为 out 或 ref 参数传递"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法將屬性或索引子當做 out 或 ref 參數傳遞"
+      }
+    },
+    "UnsafeNeeded": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Dynamische Aufrufe können nicht in Verbindung mit Zeigern verwendet werden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se pueden usar llamadas dinámicas en combinación con los punteros."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible d'utiliser des appels dynamiques avec des pointeurs"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile utilizzare le chiamate dinamiche insieme ai puntatori"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "動的な呼び出しはポインターと共に使用できません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "동적 호출을 포인터와 함께 사용할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Dynamic calls cannot be used in conjunction with pointers"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Динамические вызовы нельзя использовать в сопряжении с указателями"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "动态调用不能与指针一起使用"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "動態呼叫不能與指標一起使用"
+      }
+    },
+    "BadBoolOp": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Um als Kurzschlussoperator anwendbar zu sein, muss der Rückgabetyp eines benutzerdefinierten logischen Operators ({0}) mit dem Typ seiner zwei Parameter übereinstimmen."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "Para que se pueda aplicar un operador de cortocircuito, el operador lógico definido por el usuario ('{0}') debe tener el mismo tipo de valor devuelto que sus dos parámetros"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Pour être applicable en tant qu'opérateur de court-circuit, un opérateur logique défini par l'utilisateur '{0}') doit avoir le même type de retour que le type de ses 2 paramètres"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Per essere utilizzato come operatore di corto circuito, un operatore logico definito dall'utente ('{0}') deve avere lo stesso tipo restituito dei 2 parametri"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "short circuit 演算子として適用するためには、ユーザー定義の論理演算子 ('{0}') がその 2 つのパラメーターと同じ戻り値の型を持つ必要があります"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "사용자 정의 논리 연산자('{0}')를 단락(short circuit) 연산자로 사용하려면 연산자의 두 매개 변수와 같은 형식을 반환해야 합니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "In order to be applicable as a short circuit operator a user-defined logical operator ('{0}') must have the same return type as the type of its 2 parameters"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Для использования в качестве логического оператора краткой записи тип возвращаемого значения пользовательского логического оператора (\"{0}\") должен быть аналогичен типам двух его параметров"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "为了可以像短路运算符一样应用，用户定义的逻辑运算符(“{0}”)的返回类型必须与它的两个参数的类型相同"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "為了可以當成最少運算 (Short Circuit) 運算子使用，使用者定義的邏輯運算子 ('{0}') 其傳回型別必須與其 2 個參數的型別相同"
+      }
+    },
+    "MustHaveOpTF": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Der Typ ({0}) muss Deklarationen des True- und des False-Operators enthalten."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "El tipo ('{0}') debe incluir declaraciones de operador true y operador false."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Le type ('{0}') doit contenir les déclarations de l'opérateur true et de l'opérateur false"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Il tipo ('{0}') deve contenere dichiarazioni di operatore true e operatore false."
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "型 ('{0}') に演算子 true および演算子 false の宣言が含まれている必要があります"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' 형식에는 true 및 false 연산자 선언이 있어야 합니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "The type ('{0}') must contain declarations of operator true and operator false"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Тип (\"{0}\") должен содержать объявления оператора true и оператора false"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "类型(“{0}”)必须包含运算符 True 和运算符 False 的声明"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "型別 ('{0}') 必須包含運算子 true 和運算子 false 的宣告"
+      }
+    },
+    "ConstOutOfRangeChecked": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Der Konstantenwert \"{0}\" kann nicht in {1} konvertiert werden (verwenden Sie zum Außerkraftsetzen die unchecked-Syntax)."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "El valor constante '{0}' no se puede convertir en '{1}' (use la sintaxis 'unchecked' para invalidar el valor)"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible de convertir la valeur de constante '{0}' en '{1}' (utilisez la syntaxe 'unchecked)"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Il valore costante '{0}' non può essere convertito in '{1}' (utilizzare la sintassi 'unchecked' per eseguire l'override)."
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "定数値 '{0}' は '{1}' に変換できません (unchecked 構文を使ってオーバーライドしてください)"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "상수 값 '{0}'을(를) '{1}'(으)로 변환할 수 없습니다. 재정의하려면 'unchecked' 구문을 사용하십시오."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Constant value '{0}' cannot be converted to a '{1}' (use 'unchecked' syntax to override)"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Постоянное значение \"{0}\" не может быть преобразовано в \"{1}\" (для обхода используйте синтаксис \"unchecked\")"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "常量值“{0}”无法转换为“{1}”(使用“unchecked”语法重写)"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法將常數值 '{0}' 轉換為 '{1}' (請使用 'unchecked' 語法覆寫)"
+      }
+    },
+    "AmbigMember": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Mehrdeutigkeit zwischen {0} und {1}"
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "Ambigüedad entre '{0}' y '{1}'"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Ambiguïté entre '{0}' et '{1}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Ambiguità tra '{0}' e '{1}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' と '{1}' 間があいまいです"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}'과(와) '{1}' 사이에 모호성이 있습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Ambiguity between '{0}' and '{1}'"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Неоднозначность между \"{0}\" и \"{1}\""
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "在“{0}”和“{1}”之间具有二义性"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' 和 '{1}' 之間模稜兩可"
+      }
+    },
+    "NoImplicitConvCast": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Der {0}-Typ kann nicht implizit in {1} konvertiert werden. Es ist bereits eine explizite Konvertierung vorhanden (möglicherweise fehlt eine Umwandlung)."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede convertir implícitamente el tipo '{0}' en '{1}'. Ya existe una conversión explícita (compruebe si le falta una conversión)."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible de convertir implicitement le type '{0}' en '{1}'. Une conversion explicite existe (un cast est-il manquant ?)"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile convertire in modo implicito il tipo '{0}' in '{1}'. È presente una conversione esplicita. Probabile cast mancante."
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "型 '{0}' を '{1}' に暗黙的に変換できません。明示的な変換が存在します (cast が不足していないかどうかを確認してください)"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "암시적으로 '{0}' 형식을 '{1}' 형식으로 변환할 수 없습니다. 명시적 변환이 있습니다. 캐스트가 있는지 확인하십시오."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Cannot implicitly convert type '{0}' to '{1}'. An explicit conversion exists (are you missing a cast?)"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Не удается неявно преобразовать тип \"{0}\" в \"{1}\". Существует явное преобразование (требуется приведение типа?)"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法将类型“{0}”隐式转换为“{1}”。存在一个显式转换(是否缺少强制转换?)"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法將型別 '{0}' 隱含轉換為 '{1}'。已有明確轉換存在 (您是否漏掉了轉型?)"
+      }
+    },
+    "InaccessibleGetter": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Die Eigenschaft oder der Indexer \"{0}\" kann in diesem Kontext nicht verwendet werden, da nicht auf den get-Accessor zugegriffen werden kann."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "La propiedad o indizador '{0}' no se puede usar en este contexto porque el descriptor de acceso get es inaccesible"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible d'utiliser la propriété ou l'indexeur '{0}' dans ce contexte, car l'accesseur get n'est pas accessible"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile utilizzare la proprietà o l'indicizzatore '{0}' in questo contesto perché la funzione di accesso get è inaccessibile."
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "get アクセサーにアクセスできないため、プロパティまたはインデクサー '{0}' はこのコンテキストでは使用できません。"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "get 접근자에 액세스할 수 없으므로 '{0}' 속성 또는 인덱서는 이 컨텍스트에서 사용할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "The property or indexer '{0}' cannot be used in this context because the get accessor is inaccessible"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Свойство или индексатор \"{0}\" невозможно использовать в данном контексте, поскольку метод доступа get недоступен"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "属性或索引器“{0}”不能用在此上下文中，因为 get 访问器不可访问"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "這個內容中不能使用屬性或索引子 '{0}'，因為無法存取 get 存取子"
+      }
+    },
+    "InaccessibleSetter": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Die Eigenschaft oder der Indexer \"{0}\" kann in diesem Kontext nicht verwendet werden, da nicht auf den set-Accessor zugegriffen werden kann."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "La propiedad o indizador '{0}' no se puede usar en este contexto porque el descriptor de acceso set es inaccesible"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible d'utiliser la propriété ou l'indexeur '{0}' dans ce contexte, car l'accesseur set n'est pas accessible"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile utilizzare la proprietà o l'indicizzatore '{0}' in questo contesto perché la funzione di accesso set è inaccessibile."
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "set アクセサーにアクセスできないため、プロパティまたはインデクサー '{0}' はこのコンテキストでは使用できません。"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "set 접근자에 액세스할 수 없으므로 '{0}' 속성 또는 인덱서는 이 컨텍스트에서 사용할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "The property or indexer '{0}' cannot be used in this context because the set accessor is inaccessible"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Свойство или индексатор \"{0}\" невозможно использовать в данном контексте, поскольку метод доступа set недоступен"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "属性或索引器“{0}”不能用在此上下文中，因为 set 访问器不可访问"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "這個內容中不能使用屬性或索引子 '{0}'，因為無法存取 set 存取子"
+      }
+    },
+    "BadArity": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Die Verwendung von {1} \"{0}\" (generisch) erfordert {2}-Typargumente."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "Uso de {1} de tipo genérico ('{0}'): requiere '{2}' argumentos de tipo"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "L'utilisation du {1} '{0}' générique requiert les arguments de type '{2}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "L'utilizzo del {1} generico '{0}' richiede argomenti di tipo '{2}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "ジェネリック {1} '{0}' の使用には、'{2}' 型の引数が必要です"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "제네릭 {1} '{0}'을(를) 사용하려면 '{2}' 형식 인수가 필요합니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Using the generic {1} '{0}' requires '{2}' type arguments"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Использование универсального {1} \"{0}\" требует аргументов типа \"{2}\""
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "使用泛型 {1}“{0}”需要“{2}”个类型参数"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "使用泛型 {1} '{0}' 需要 '{2}' 個型別引數"
+      }
+    },
+    "TypeArgsNotAllowed": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "{1} \"{0}\" kann nicht mit Typargumenten verwendet werden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "{1} '{0}' no se puede usar con argumentos de tipo."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible d'utiliser le {1} '{0}' avec des arguments de type"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile utilizzare {1} '{0}' insieme ad argomenti di tipo"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "{1} '{0}' は型引数と一緒には使用できません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "{1} '{0}'은(는) 형식 인수와 함께 사용할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "The {1} '{0}' cannot be used with type arguments"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "{1} \"{0}\" не может использоваться с аргументами типа"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "{1}“{0}”不能与类型参数一起使用"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "{1} '{0}' 不能配合型別引數使用"
+      }
+    },
+    "HasNoTypeVars": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "{1} \"{0}\" ist nicht generisch und kann daher nicht mit Typargumenten verwendet werden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "Uso de {1} '{0}' de tipo no genérico: no se puede usar con argumentos de tipo"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible d'utiliser le {1} '{0}' non générique avec des arguments de type"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile utilizzare {1} non generico '{0}' insieme ad argomenti di tipo"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "非ジェネリック {1} '{0}' は型引数と一緒には使用できません。"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "제네릭이 아닌 {1} '{0}'은(는) 형식 인수와 함께 사용할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "The non-generic {1} '{0}' cannot be used with type arguments"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Неуниверсальный {1} \"{0}\" не может использоваться с аргументами типа"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "非泛型 {1}“{0}”不能与类型参数一起使用"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "非泛型 {1} '{0}' 不能配合型別引數使用"
+      }
+    },
+    "NewConstraintNotSatisfied": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "{2} muss ein nicht abstrakter Typ mit einem öffentlichen parameterlosen Konstruktor sein, um im generischen Typ oder in der generischen {0}-Methode als {1}-Parameter verwendet werden zu können."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "'{2}' debe ser un tipo no abstracto con un constructor público sin parámetros para poder usarlo como parámetro '{1}' en el tipo o método genérico '{0}'."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "'{2}' doit être un type non abstrait avec un constructeur sans paramètre public afin de l'utiliser comme paramètre '{1}' dans le type ou la méthode générique '{0}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "'{2}' deve essere un tipo non astratto con un costruttore pubblico senza parametri per essere utilizzato come parametro '{1}' nel tipo o nel metodo generico '{0}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "'{2}' は、ジェネリック型またはメソッド '{0}' 内でパラメーター '{1}' として使用するために、パブリック パラメーターなしのコンストラクターを持つ非抽象型でなければなりません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "제네릭 형식 또는 메서드 '{0}'에서 '{1}' 매개 변수로 사용하려면 '{2}'이(가) 매개 변수가 없는 public 생성자를 사용하는 비추상 형식이어야 합니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "'{2}' must be a non-abstract type with a public parameterless constructor in order to use it as parameter '{1}' in the generic type or method '{0}'"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "\"Для использования в качестве параметра \"{1}\" в универсальном типе или методе \"{0}\" тип \"{2}\" должен быть неабстрактным и иметь открытый конструктор без параметров"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "“{2}”必须是具有公共的无参数构造函数的非抽象类型，才能用作泛型类型或方法“{0}”中的参数“{1}”"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "'{2}' 必須是具有公用無參數建構函式的非抽象型別，才能在泛型型別或方法 '{0}' 中做為參數 '{1}' 使用"
+      }
+    },
+    "GenericConstraintNotSatisfiedRefType": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Der {3}-Typ kann nicht als {2}-Typparameter im generischen Typ oder in der generischen {0}-Methode verwendet werden. Es ist keine implizite Verweiskonvertierung von {3} in {1} vorhanden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "El tipo '{3}' no se puede usar como parámetro de tipo '{2}' en el tipo o método genérico '{0}'. No hay ninguna conversión de referencia implícita de '{3}' a '{1}'."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible d'utiliser le type '{3}' comme paramètre de type '{2}' dans le type ou la méthode générique '{0}'. Il n'y a pas de conversion de référence implicite de '{3}' en '{1}'."
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile utilizzare il tipo '{3}' come parametro di tipo '{2}' nel metodo o nel tipo generico '{0}'. Nessuna conversione implicita di riferimenti da '{3}' a '{1}'."
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "型 '{3}' はジェネリック型またはメソッド '{0}' 内で型パラメーター '{2}' として使用できません。'{3}' から '{1}' への暗黙的な参照変換がありません。"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{3}' 형식은 제네릭 형식 또는 메서드 '{0}'에서 형식 매개 변수 '{2}'(으)로 사용할 수 없습니다. '{3}'에서 '{1}'(으)로의 암시적 참조 변환이 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "The type '{3}' cannot be used as type parameter '{2}' in the generic type or method '{0}'. There is no implicit reference conversion from '{3}' to '{1}'."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Невозможно использовать тип \"{3}\" в качестве параметра типа \"{2}\" в универсальном типе или методе \"{0}\". Нет неявного преобразования ссылки из \"{3}\" в \"{1}\"."
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "类型“{3}”不能用作泛型类型或方法“{0}”中的类型参数“{2}”。没有从“{3}”到“{1}”的隐式引用转换。"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "型別 '{3}' 不能做為泛型型別或方法 '{0}' 中的型別參數 '{2}'。沒有從 '{3}' 到 '{1}' 的隱含參考轉換。"
+      }
+    },
+    "GenericConstraintNotSatisfiedNullableEnum": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Der {3}-Typ kann nicht als {2}-Typparameter im generischen Typ oder in der generischen {0}-Methode verwendet werden. Der {3}-Typ, der NULL-Werte zulässt, entspricht nicht der Einschränkung von {1}."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "El tipo '{3}' no se puede usar como parámetro de tipo '{2}' en el tipo o método genérico '{0}'. El tipo que acepta valores NULL '{3}' no cumple la restricción de '{1}'."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible d'utiliser le type '{3}' comme paramètre de type '{2}' dans le type ou la méthode générique '{0}'. Le type Nullable '{3}' ne satisfait pas la contrainte de '{1}'."
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile utilizzare il tipo '{3}' come parametro di tipo '{2}' nel tipo o metodo generico '{0}'. Il tipo nullable '{3}' non soddisfa il vincolo di '{1}'."
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "型 '{3}' はジェネリック型またはメソッド '{0}' 内で型パラメーター '{2}' として使用できません。Null 許容型 '{3}' は、'{1}' の制約を満たしていません。"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{3}' 형식은 제네릭 형식 또는 메서드 '{0}'에서 형식 매개 변수 '{2}'(으)로 사용할 수 없습니다. nullable 형식 '{3}'이(가) '{1}' 제약 조건을 충족하지 않습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "The type '{3}' cannot be used as type parameter '{2}' in the generic type or method '{0}'. The nullable type '{3}' does not satisfy the constraint of '{1}'."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Невозможно использовать тип \"{3}\" в качестве параметра типа \"{2}\" в универсальном типе или методе \"{0}\". Для типа \"{3}\", допускающего значение null, не выполняется ограничение \"{1}\"."
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "类型“{3}”不能用作泛型类型或方法“{0}”中的类型参数“{2}”。可以为 null 的类型“{3}”不满足“{1}”的约束。"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "型別 '{3}' 不能做為泛型型別或方法 '{0}' 中的型別參數 '{2}'。可為 Null 的型別 '{3}' 未滿足 '{1}' 的條件約束。"
+      }
+    },
+    "GenericConstraintNotSatisfiedNullableInterface": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Der {3}-Typ kann nicht als {2}-Typparameter im generischen Typ oder in der generischen {0}-Methode verwendet werden. Der {3}-Typ, der NULL-Werte zulässt, entspricht nicht der Einschränkung von {1}. Typen, die NULL-Werte zulassen, können Schnittstelleneinschränkungen nicht entsprechen."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "El tipo '{3}' no se puede usar como parámetro de tipo '{2}' en el tipo o método genérico '{0}'. El tipo que acepta valores NULL '{3}' no cumple la restricción de '{1}'. Los tipos que aceptan valores NULL no pueden cumplir restricciones de interfaz."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible d'utiliser le type '{3}' comme paramètre de type '{2}' dans le type ou la méthode générique '{0}'. Le type Nullable '{3}' ne satisfait pas la contrainte de '{1}'. Les types Nullable ne peuvent pas satisfaire les contraintes d'interface."
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile utilizzare il tipo '{3}' come parametro di tipo '{2}' nel tipo o metodo generico '{0}'. Il tipo nullable '{3}' non soddisfa il vincolo di '{1}'. I tipi nullable non soddisfano i vincoli di interfaccia."
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "型 '{3}' はジェネリック型またはメソッド '{0}' 内で型パラメーター '{2}' として使用できません。Null 許容型 '{3}' は、'{1}' の制約を満たしていません。Null 許容型はインターフェイス制約を満たすことはできません。"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{3}' 형식은 제네릭 형식 또는 메서드 '{0}'에서 형식 매개 변수 '{2}'(으)로 사용할 수 없습니다. nullable 형식 '{3}'이(가) '{1}' 제약 조건을 충족하지 않습니다. nullable 형식은 어떠한 인터페이스 제약 조건도 만족할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "The type '{3}' cannot be used as type parameter '{2}' in the generic type or method '{0}'. The nullable type '{3}' does not satisfy the constraint of '{1}'. Nullable types can not satisfy any interface constraints."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Невозможно использовать тип \"{3}\" в качестве параметра типа \"{2}\" в универсальном типе или методе \"{0}\". Для типа \"{3}\", допускающего значение null, не выполняется ограничение \"{1}\". Типы, допускающие значение null, не могут удовлетворять ни одному интерфейсному ограничению."
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "类型“{3}”不能用作泛型类型或方法“{0}”中的类型参数“{2}”。可以为 null 的类型“{3}”不满足“{1}”的约束。可以为 null 的类型不能满足任何接口约束。"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "型別 '{3}' 不能做為泛型型別或方法 '{0}' 中的型別參數 '{2}'。可為 Null 的型別 '{3}' 未滿足 '{1}' 的條件約束。可為 Null 的型別無法滿足所有介面條件約束。"
+      }
+    },
+    "GenericConstraintNotSatisfiedValType": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Der {3}-Typ kann nicht als {2}-Typparameter im generischen Typ oder in der generischen {0}-Methode verwendet werden. Es ist keine Boxing-Konvertierung von {3} in {1} vorhanden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "El tipo '{3}' no se puede usar como parámetro de tipo '{2}' en el tipo o método genérico '{0}'. No hay conversión boxing de '{3}' a '{1}'."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible d'utiliser le type '{3}' comme paramètre de type '{2}' dans le type ou la méthode générique '{0}'. Il n'y a pas de conversion boxing de '{3}' en '{1}'."
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile utilizzare il tipo '{3}' come parametro di tipo '{2}' nel metodo o nel tipo generico '{0}'. Nessuna conversione boxing da '{3}' a '{1}'."
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "型 '{3}' はジェネリック型またはメソッド '{0}' 内で型パラメーター '{2}' として使用できません。'{3}' から '{1}' へのボックス変換がありません。"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{3}' 형식은 제네릭 형식 또는 메서드 '{0}'에서 형식 매개 변수 '{2}'(으)로 사용할 수 없습니다. '{3}'에서 '{1}'(으)로의 boxing 변환이 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "The type '{3}' cannot be used as type parameter '{2}' in the generic type or method '{0}'. There is no boxing conversion from '{3}' to '{1}'."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Невозможно использовать тип \"{3}\" в качестве параметра типа \"{2}\" в универсальном типе или методе \"{0}\". Нет преобразования-упаковки из \"{3}\" в \"{1}\"."
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "类型“{3}”不能用作泛型类型或方法“{0}”中的类型参数“{2}”。没有从“{3}”到“{1}”的装箱转换。"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "型別 '{3}' 不能做為泛型型別或方法 '{0}' 中的型別參數 '{2}'。沒有從 '{3}' 到 '{1}' 的 Boxing 轉換。"
+      }
+    },
+    "CantInferMethTypeArgs": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Die Typargumente der {0}-Methode können nicht per Rückschluss aus der Syntax abgeleitet werden. Geben Sie die Typargumente explizit an."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "Los argumentos de tipo para el método '{0}' no se pueden inferir a partir del uso. Intente especificar los argumentos de tipo explícitamente."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible de déduire les arguments de type pour la méthode '{0}' à partir de l'utilisation. Essayez de spécifier les arguments de type de façon explicite."
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile dedurre gli argomenti di tipo per il metodo '{0}' dall'utilizzo. Provare a specificare gli argomenti di tipo in modo esplicito."
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "メソッド '{0}' の型引数を使い方から推論することはできません。型引数を明示的に指定してください。"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' 메서드의 형식 인수를 유추할 수 없습니다. 형식 인수를 명시적으로 지정하십시오."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "The type arguments for method '{0}' cannot be inferred from the usage. Try specifying the type arguments explicitly."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "The type arguments for method \"{0}\" cannot be inferred from the usage. Попытайтесь явно определить аргументы-типы."
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法从用法中推断出方法“{0}”的类型参数。请尝试显式指定类型参数。"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "方法 '{0}' 的型別引數不能從使用方式推斷。請嘗試明確指定型別引數。"
+      }
+    },
+    "RefConstraintNotSatisfied": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Der {2}-Typ muss ein Referenztyp sein, damit er als {1}-Parameter im generischen Typ oder in der generischen {0}-Methode verwendet werden kann."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "El tipo '{2}' debe ser un tipo de referencia para poder usarlo como parámetro '{1}' en el tipo o método genérico '{0}'."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Le type '{2}' doit être un type référence afin d'être utilisé comme paramètre '{1}' dans le type ou la méthode générique '{0}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "È necessario che il tipo '{2}' sia un tipo di riferimento per essere utilizzato come parametro '{1}' nel tipo generico o nel metodo '{0}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "型 '{2}' は、ジェネリック型のパラメーター '{1}'、またはメソッド '{0}' として使用するために、参照型でなければなりません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "제네릭 형식 또는 메서드 '{0}'에서 '{2}' 형식을 '{1}' 매개 변수로 사용하려면 해당 형식이 참조 형식이어야 합니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "The type '{2}' must be a reference type in order to use it as parameter '{1}' in the generic type or method '{0}'"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Для использования в качестве параметра \"{1}\" в универсальном типе или методе \"{0}\" тип \"{2}\" должен быть ссылочным типом"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "类型“{2}”必须是引用类型才能用作泛型类型或方法“{0}”中的参数“{1}”"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "型別 '{2}' 必須是參考型別，才能在泛型型別或方法 '{0}' 中做為參數 '{1}' 使用"
+      }
+    },
+    "ValConstraintNotSatisfied": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Der {2}-Typ darf keine NULL-Werte zulassen, wenn er als {1}-Parameter im generischen Typ oder in der generischen {0}-Methode verwendet werden soll."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "El tipo '{2}' debe ser un tipo de valor que no acepte valores NULL para poder usarlo como parámetro '{1}' en el tipo o método genérico '{0}'."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Le type '{2}' doit être un type valeur non Nullable afin d'être utilisé comme paramètre '{1}' dans le type ou la méthode générique '{0}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Il tipo '{2}' deve essere un tipo di valore non nullable per poter essere utilizzato come parametro '{1}' nel metodo o nel tipo generico '{0}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "型 '{2}' は、ジェネリック型のパラメーター '{1}'、またはメソッド '{0}' として使用するために、Null 非許容の値型でなければなりません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "제네릭 형식 또는 메서드 '{0}'에서 '{2}' 형식을 '{1}' 매개 변수로 사용하려면 해당 형식이 null을 허용하지 않는 값 형식이어야 합니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "The type '{2}' must be a non-nullable value type in order to use it as parameter '{1}' in the generic type or method '{0}'"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Для использования в качестве параметра \"{1}\" в универсальном типе или методе \"{0}\" тип \"{2}\" должен быть типом значения, не допускающим значения NULL"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "类型“{2}”必须是不可以为 null 值的类型，才能用作泛型类型或方法“{0}”中的参数“{1}”"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "型別 '{2}' 必須是不可為 null 的實值型別，才能在泛型型別或方法 '{0}' 中做為參數 '{1}' 使用"
+      }
+    },
+    "AmbigUDConv": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Mehrdeutige benutzerdefinierte Konvertierungen von {0} und {1} bei der Konvertierung von {2} in {3}"
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "Conversiones ambiguas definidas por el usuario '{0}' y '{1}' al convertir de '{2}' a '{3}'"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Conversions définies par l'utilisateur ambiguës '{0}' et '{1}' lors de la conversion de '{2}' en '{3}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Conversioni '{0}' e '{1}' ambigue definite dall'utente durante la conversione da '{2}' a '{3}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "'{2}' から '{3}' へ変換するときの、あいまいなユーザー定義の変換 '{0}' および '{1}' です"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{2}'에서 '{3}(으)로 변환하는 동안 모호한 사용자 정의 변환 '{0}' 및 '{1}'이(가) 발생했습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Ambiguous user defined conversions '{0}' and '{1}' when converting from '{2}' to '{3}'"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Неоднозначные пользовательские преобразования \"{0}\" и \"{1}\" при преобразовании из \"{2}\" в \"{3}\""
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "从“{2}”转换为“{3}”时，用户定义的转换“{0}”和“{1}”具有二义性"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "從 '{2}' 轉換為 '{3}' 時，發現模稜兩可的使用者定義轉換 '{0}' 和 '{1}'"
+      }
+    },
+    "BindToBogus": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "{0} wird von der Sprache nicht unterstützt."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' no es compatible con el lenguaje"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' n'est pas pris en charge par le langage"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' non è supportato dal linguaggio"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' はこの言語でサポートされていません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}'은(는) 언어에서 지원되지 않습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' is not supported by the language"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "\"{0}\" не поддерживается языком"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "现用语言不支持“{0}”"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "此語言不支援 '{0}'"
+      }
+    },
+    "CantCallSpecialMethod": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "{0}: Der Operator oder Accessor kann nicht explizit aufgerufen werden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "'{0}': no se puede llamar explícitamente al operador o al descriptor de acceso"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' : impossible d'appeler explicitement un opérateur ou un accesseur"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "'{0}': impossibile chiamare in modo esplicito l'operatore o la funzione di accesso"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "'{0}': 演算子またはアクセサーを明示的に呼び出すことはできません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}': 연산자나 접근자를 명시적으로 호출할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "'{0}': cannot explicitly call operator or accessor"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "\"{0}\": явный вызов оператора или метода доступа невозможен"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "“{0}”: 无法显式调用运算符或访问器"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "'{0}': 無法明確呼叫運算子或存取子"
+      }
+    },
+    "ConvertToStaticClass": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Die Konvertierung in den statischen {0}-Typ ist nicht möglich."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede convertir en el tipo estático '{0}'"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible de convertir en type static '{0}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile convertire nel tipo statico '{0}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "スタティック型 '{0}' へ変換できません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' 정적 형식으로 변환할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Cannot convert to static type '{0}'"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Не удается выполнить преобразование к статическому типу \"{0}\""
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法转换为静态类型“{0}”"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法轉換為靜態型別 '{0}'"
+      }
+    },
+    "IncrementLvalueExpected": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Der Operand eines Inkrement- oder Dekrementoperators muss eine Variable, eine Eigenschaft oder ein Indexer sein."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "El operando de un operador de incremento o decremento debe ser una variable, una propiedad o un indizador"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "L'opérande d'un opérateur d'incrémentation ou de décrémentation doit être une variable, une propriété ou un indexeur"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "L'operando di un operatore di incremento o decremento deve essere una variabile, una proprietà o un indicizzatore"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "インクリメント演算子またはデクリメント演算子のオペランドには、変数、プロパティ、またはインデクサーを指定してください。"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "증가 연산자 또는 감소 연산자의 피연산자는 변수, 속성 또는 인덱서여야 합니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "The operand of an increment or decrement operator must be a variable, property or indexer"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Операндом оператора инкремента или декремента должна быть переменная, свойство или индексатор"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "递增或递减运算符的操作数必须是变量、属性或索引器"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "遞增或遞減運算子的運算元必須是變數、屬性或索引子。"
+      }
+    },
+    "BadArgCount": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Keine Überladung für die {0}-Methode nimmt {1}-Argumente an."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "Ninguna sobrecarga del método '{0}' toma argumentos '{1}'"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Aucune surcharge pour la méthode '{0}' ne prend d'arguments '{1}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Nessun overload del metodo '{0}' accetta argomenti '{1}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "引数を '{1}' 個指定できる、メソッド '{0}' のオーバーロードはありません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{1}'개의 인수를 사용하는 '{0}' 메서드에 대한 오버로드가 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "No overload for method '{0}' takes {1} arguments"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Отсутствие перегрузки для метода \"{0}\" принимает\"{1}\" аргументы"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "“{0}”方法没有采用“{1}”个参数的重载"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "方法 '{0}' 沒有任何多載接受 '{1}' 個引數"
+      }
+    },
+    "BadArgTypes": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Die beste Übereinstimmung für die überladene {0}-Methode enthält einige ungültige Argumente."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "La mejor coincidencia de método sobrecargado para '{0}' tiene algunos argumentos no válidos"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "La méthode surchargée correspondant le mieux à '{0}' a des arguments non valides"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "La corrispondenza migliore del metodo di overload per '{0}' presenta alcuni argomenti non validi"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' に最も適しているオーバーロード メソッドには無効な引数がいくつか含まれています"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}'에 가장 일치하는 오버로드된 메서드에 잘못된 인수가 있습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "The best overloaded method match for '{0}' has some invalid arguments"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Наиболее подходящий перегруженный метод для \"{0}\" имеет несколько недопустимых аргументов"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "与“{0}”最匹配的重载方法具有一些无效参数"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "最符合的多載方法 '{0}' 有一些無效的引數"
+      }
+    },
+    "RefLvalueExpected": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Ein ref- oder out-Argument muss eine zuweisbare Variable sein."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "Un argumento out o ref debe ser una variable asignable"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Un argument ref ou out doit être une variable qui peut être assignée"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Un argomento ref o out deve essere una variabile assegnabile."
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "ref または out 引数は、割り当て可能な変数でなければなりません。"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "ref 또는 out 인수는 할당 가능한 변수여야 합니다."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Аргумент с ключевым словом ref или out должен быть переменной, которой можно присвоить значение"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "ref 或 out 参数必须是可以赋值的变量"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "ref 或 out 引數必須是可指派的變數"
+      }
+    },
+    "BadProtectedAccess": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Auf den geschützten Member \"{0}\" kann nicht über einen Qualifizierer vom Typ \"{1}\" zugegriffen werden. Der Qualifizierer muss vom Typ \"{2}\" (oder von ihm abgeleitet) sein."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede obtener acceso al miembro protegido '{0}' mediante un calificador del tipo '{1}'; el calificador debe ser del tipo '{2}' (o derivado de éste)"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible d'accéder au membre protégé '{0}' par l'intermédiaire d'un qualificateur de type '{1}' ; le qualificateur doit être de type '{2}' (ou dérivé de celui-ci)"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile accedere al membro protetto '{0}' tramite un qualificatore di tipo '{1}'. Il qualificatore deve essere di tipo '{2}' o derivato da esso."
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "'{1}' 型の修飾子をとおしてプロテクト メンバー '{0}' にアクセスすることはできません。修飾子は '{2}' 型、またはそれから派生したものでなければなりません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{1}' 형식의 한정자를 통해 보호된 멤버 '{0}'에 액세스할 수 없습니다. 한정자는 '{2}' 형식이거나 여기에서 파생된 형식이어야 합니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Cannot access protected member '{0}' via a qualifier of type '{1}'; the qualifier must be of type '{2}' (or derived from it)"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Не удается получить доступ к защищенному члену \"{0}\" через квалификатор типа \"{1}\"; квалификатор должен иметь тип \"{2}\" (или производный от него)"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法通过“{1}”类型的限定符访问受保护的成员“{0}”；限定符必须是“{2}”类型(或者从该类型派生)"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法經由型別 '{1}' 的限定詞來存取保護的成員 '{0}'; 必須經由型別 '{2}' (或從其衍生的型別) 的限定詞"
+      }
+    },
+    "BindToBogusProp2": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Die Eigenschaft, der Indexer oder das Ereignis \"{0}\" wird von der Sprache nicht unterstützt. Rufen Sie die {1}- oder {2}-Accessormethoden direkt auf."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "El lenguaje no admite la propiedad, el indizador o el evento '{0}'; intente llamar directamente a los métodos de descriptor de acceso '{1}' o '{2}'"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "La propriété, l'indexeur ou l'événement '{0}' n'est pas pris en charge par le langage ; essayez d'appeler directement les méthodes d'accesseur '{1}' ou '{2}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "La proprietà, l'indicizzatore o l'evento '{0}' non è supportato dal linguaggio. Provare a chiamare direttamente il metodo '{1}' o '{2}' della funzione di accesso"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "プロパティ、インデクサー、またはイベント '{0}' はこの言語でサポートされていません。アクセサー メソッドの '{1}' または '{2}' を直接呼び出してください"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' 속성, 인덱서 또는 이벤트는 이 언어에서 지원되지 않습니다. '{1}' 또는 '{2}' 접근자 메서드를 직접 호출해 보십시오."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Property, indexer, or event '{0}' is not supported by the language; try directly calling accessor methods '{1}' or '{2}'"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Свойство, индексатор или событие \"{0}\" не поддерживается в данном языке; попробуйте вызвать метод доступа \"{1}\" или \"{2}\""
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "属性、索引器或事件“{0}”不受现用语言支持；请尝试直接调用访问器方法“{1}”或“{2}”"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "此語言不支援屬性、索引子或事件 '{0}'; 請試著直接呼叫存取子方法 '{1}' 或 '{2}'"
+      }
+    },
+    "BindToBogusProp1": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Die Eigenschaft, der Indexer oder das Ereignis \"{0}\" wird von der Sprache nicht unterstützt. Rufen Sie die {1}-Accessormethode direkt auf."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "El lenguaje no admite la propiedad, el indizador o el evento '{0}'; intente llamar directamente al método de descriptor de acceso '{1}'"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "La propriété, l'indexeur ou l'événement '{0}' n'est pas pris en charge par le langage ; essayez d'appeler directement la méthode d'accesseur '{1}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "La proprietà, l'indicizzatore o l'evento '{0}' non è supportato dal linguaggio. Provare a chiamare direttamente il metodo '{1}' della funzione di accesso"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "プロパティ、インデクサー、またはイベント '{0}' はこの言語でサポートされていません。アクセサー メソッドの '{1}' を直接呼び出してください"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' 속성, 인덱서 또는 이벤트는 이 언어에서 지원되지 않습니다. '{1}' 접근자 메서드를 직접 호출해 보십시오."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Property, indexer, or event '{0}' is not supported by the language; try directly calling accessor method '{1}'"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Свойство, индексатор или событие \"{0}\" не поддерживается в данном языке; попробуйте вызвать метод доступа \"{1}\" или \"{2}\""
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "属性、索引器或事件“{0}”不受现用语言支持；请尝试直接调用访问器方法“{1}”"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "此語言不支援屬性、索引子或事件 '{0}'; 請試著直接呼叫存取子方法 '{1}'"
+      }
+    },
+    "BadDelArgCount": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Der Delegat \"{0}\" akzeptiert {1}-Argumente nicht."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "El delegado '{0}' no toma '{1}' argumentos"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Le délégué '{0}' ne prend pas les arguments '{1}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Il delegato '{0}' non accetta argomenti '{1}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "デリゲート '{0}' に '{1}' 個の引数を指定することはできません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' 대리자에는 '{1}'개의 인수를 사용할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Delegate '{0}' does not take '{1}' arguments"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Делегат \"{0}\" не принимает аргументы \"{1}\""
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "委托“{0}”未采用“{1}”个参数"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "委派 '{0}' 不接受 '{1}' 個引數"
+      }
+    },
+    "BadDelArgTypes": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Der Delegat \"{0}\" enthält einige ungültige Argumente."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "El delegado '{0}' tiene algunos argumentos no válidos"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Le délégué '{0}' utilise des arguments non valides"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Il delegato '{0}' presenta alcuni argomenti non validi"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "デリゲート '{0}' に無効な引数があります"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' 대리자에 잘못된 인수가 있습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Delegate '{0}' has some invalid arguments"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Делегат \"{0}\" имеет недопустимые аргументы"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "委托“{0}”有一些无效参数"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "委派 '{0}' 有一些無效的引數"
+      }
+    },
+    "AssgReadonlyLocal": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "{0} ist schreibgeschützt. Eine Zuweisung ist daher nicht möglich."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede asignar a '{0}' porque es de solo lectura"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible d'assigner à '{0}', car il est en lecture seule"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile assegnare a '{0}' perché è di sola lettura"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "読み取り専用であるため '{0}' に割り当てできません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "읽기 전용인 '{0}'에는 할당할 수 없습니다."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Не удается выполнить присвоение параметру \"{0}\", так как он доступен только для чтения"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法为“{0}”赋值，因为它是只读的"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法指派給 '{0}'，因為它是唯讀的"
+      }
+    },
+    "RefReadonlyLocal": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "{0} ist schreibgeschützt und kann daher nicht als ref- oder out-Argument übergeben werden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede pasar '{0}' como argumento out o ref porque es de solo lectura."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible de passer '{0}' comme argument ref ou out, car il est en lecture seule"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile passare '{0}' come argomento ref o out perché è di sola lettura"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "読み取り専用なので '{0}' は ref または out 引数として渡せません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}'은(는) 읽기 전용이므로 ref 또는 out 인수로 전달할 수 없습니다."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Cannot pass \"{0}\" as a ref or out argument because it is read-only"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法将“{0}”作为 ref 或 out 参数传递，因为它是只读的"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法將 '{0}' 當做 ref 或 out 引數傳遞，因為它是唯讀的"
+      }
+    },
+    "ReturnNotLValue": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Der Rückgabewert von {0} ist keine Variable und kann daher nicht geändert werden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede modificar el valor devuelto de '{0}' porque no es una variable."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible de modifier la valeur de retour de '{0}' car il ne s'agit pas d'une variable"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile modificare il valore restituito da '{0}' perché non è una variabile"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "変数ではないため、'{0}' の戻り値を変更できません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}'은(는) 변수가 아니므로 해당 반환 값을 수정할 수 없습니다."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Cannot modify the return value of \"{0}\" because it is not a variable"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法修改“{0}”的返回值，因为它不是变量"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法修改 '{0}' 的傳回值，因為它不是變數"
+      }
+    },
+    "AssgReadonly2": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Member des schreibgeschützten Felds \"{0}\" können nicht geändert werden (außer in einem Konstruktor oder Variableninitialisierer)."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "Los miembros del campo de solo lectura '{0}' no se pueden modificar (excepto en un constructor o inicializador de variable)"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible de modifier les membres d'un champ readonly '{0}' (sauf s'ils appartiennent à un constructeur ou un initialiseur de variable)"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile modificare i membri del campo di sola lettura '{0}' (tranne che in un costruttore o in un inizializzatore di variabile)"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "読み取り専用フィールド '{0}' のメンバーは変更できません (コンストラクターまたは変数初期化子では可)。"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "읽기 전용 필드 '{0}'의 멤버는 수정할 수 없습니다. 단 생성자 또는 변수 이니셜라이저에서는 예외입니다."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Члены поля \"{0}\", предназначенного только для чтения, могут быть изменены только в конструкторе или инициализаторе переменных"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法修改只读字段“{0}”的成员(在构造函数或变量初始值设定项中除外)"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "唯讀欄位 '{0}' 的成員無法修改 (除非是在建構函式或變數初始設定式)"
+      }
+    },
+    "RefReadonly2": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "An Member des schreibgeschützten Felds \"{0}\" können keine ref- oder out-Argumente übergeben werden (außer in einem Konstruktor)."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede pasar out o ref a los miembros del campo de solo lectura '{0}' (excepto en un constructor)."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible de passer les membres d'un champ readonly '{0}' en ref ou out (sauf s'ils appartiennent à un constructeur)"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile passare i membri del campo di sola lettura '{0}' come argomento ref o out (tranne che in un costruttore)"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "読み取り専用フィールド '{0}' のメンバーに ref または out を渡すことはできません (コンストラクターでは可)"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "읽기 전용 필드 '{0}'의 멤버는 ref 또는 out으로 전달할 수 없습니다. 단 생성자에서는 예외입니다."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Members of readonly field \"{0}\" cannot be passed ref or out (except in a constructor)"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法为只读字段“{0}”的成员传递 ref 或 out (在构造函数中除外)"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "ref 或 out 無法傳遞唯讀欄位 '{0}' 的成員 (除非是在建構函式中)"
+      }
+    },
+    "AssgReadonlyStatic2": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Für Felder eines statischen schreibgeschützten Felds \"{0}\" ist eine Zuweisung nicht möglich (außer in einem statischen Konstruktor oder einem Variableninitialisierer)."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede asignar a los campos del campo estático de solo lectura '{0}' (excepto en un constructor estático o un inicializador de variable)"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible d'assigner les champs du champ readonly statique '{0}' (sauf s'ils appartiennent à un constructeur statique ou un initialiseur de variable)"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile effettuare un'assegnazione ai campi di un campo statico di sola lettura '{0}' (tranne che in un costruttore statico o in un inizializzatore di variabile)"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "静的読み取り専用フィールド '{0}' のフィールドへの割り当てはできません (静的コンストラクターまたは変数初期化子では可)"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "static 읽기 전용 필드 '{0}'의 필드에는 할당할 수 없습니다. 단 static 생성자 또는 변수 이니셜라이저에서는 예외입니다."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Присваивание значений полям доступного только для чтения статического поля \"{0}\" допускается только в статическом конструкторе и в инициализаторе переменных"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法为静态只读字段“{0}”的字段赋值(在静态构造函数或变量初始值设定项中除外)"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法指派靜態唯讀欄位 '{0}' 的欄位 (除非是在靜態建構函式或變數初始設定式)"
+      }
+    },
+    "RefReadonlyStatic2": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "An Felder des schreibgeschützten Felds \"{0}\" können keine ref- oder out-Argumente übergeben werden (außer in einem Konstruktor)."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede pasar out o ref a los campos del campo estático de solo lectura '{0}' (excepto en un constructor estático)."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible de passer les champs d'un champ readonly statique '{0}' en ref ou out (sauf s'ils appartiennent à un constructeur statique)"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile passare un argomento ref o out ai campi di un campo statico di sola lettura '{0}' (tranne che in un costruttore statico)"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "静的読み取り専用フィールド '{0}' には、静的コンストラクター内を除き、ref または out を渡すことはできません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "static 읽기 전용 필드 '{0}'의 필드는 ref 또는 out으로 전달할 수 없습니다. 단 static 생성자에서는 예외입니다."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Fields of static readonly field \"{0}\" cannot be passed ref or out (except in a static constructor)"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法为静态只读字段“{0}”的字段传递 ref 或 out (在静态构造函数中除外)"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "ref 或 out 無法傳遞靜態唯讀欄位 '{0}' 的欄位 (除非是在靜態建構函式)"
+      }
+    },
+    "AssgReadonlyLocalCause": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "{0} ist ein(e) {1}. Eine Zuweisung ist daher nicht möglich."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede asignar a '{0}' porque es '{1}'"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible d'assigner à '{0}', car il s'agit d'un '{1}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile assegnare a '{0}' perché è '{1}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' は '{1}' であるため、割り当てることはできません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{1}'인 '{0}'에는 할당할 수 없습니다."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Не удается выполнить присвоение параметру \"{0}\", так как он является \"{1}\""
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "无法为“{0}”赋值，因为它是“{1}”"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法指派給 '{0}'，因為它是 '{1}'"
+      }
+    },
+    "RefReadonlyLocalCause": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "{0} ist ein(e) {1} und kann daher nicht als ref- oder out-Argument übergeben werden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede pasar '{0}' como argumento out o ref porque es '{1}'."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible de passer '{0}' en tant qu'argument ref ou out, car il s'agit d'un '{1}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile passare '{0}' come argomento ref o out perché è '{1}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "'{1}' であるため、'{0}' は ref または out 引数として渡せません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}'은(는) '{1}'이므로 ref 또는 out 인수로 전달할 수 없습니다."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Не удалось передать \"{0}\" как ссылку или аргумент out, так как это \"{1}\""
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "“{0}”是一个“{1}”，无法作为 ref 或 out 参数进行传递"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "無法將 '{0}' 當做 ref 或 out 引數傳遞，因為它是 '{1}'"
+      }
+    },
+    "BadCtorArgCount": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "\"{0}\" enthält keinen Konstruktor, der {1}-Argumente akzeptiert."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' no contiene un constructor que tome '{1}' argumentos"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' ne contient pas de constructeur qui accepte des arguments '{1}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' non contiene un costruttore che accetta argomenti '{1}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' に、引数を '{1}' 個指定できるコンストラクターがありません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}'에 '{1}'개의 인수를 사용하는 생성자가 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' does not contain a constructor that takes '{1}' arguments"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "\"{0}\" не содержит конструктор, принимающий аргументов: {1}"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "“{0}”不包含采用“{1}”个参数的构造函数"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' 不包含接受 '{1}' 個引數的建構函式"
+      }
+    },
+    "NonInvocableMemberCalled": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Der nicht aufrufbare Member \"{0}\" kann nicht wie eine Methode verwendet werden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "No se puede usar como método el miembro '{0}' no invocable."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible d'utiliser un membre '{0}' ne pouvant pas être appelé comme une méthode."
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile utilizzare il membro non richiamabile '{0}' come metodo."
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "実行不可能なメンバー '{0}' をメソッドのように使用することはできません。"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "호출할 수 없는 멤버인 '{0}'은(는) 메서드처럼 사용할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Non-invocable member '{0}' cannot be used like a method."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Невызываемый член \"{0}\" не может использоваться как метод."
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "不可调用的成员“{0}”不能像方法一样使用。"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "非可叫用 (Non-invocable) 成員 '{0}' 不能做為方法使用。"
+      }
+    },
+    "NamedArgumentSpecificationBeforeFixedArgument": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Die Spezifikationen für benannte Argumente müssen nach Angabe aller festen Argumente angezeigt werden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "Las especificaciones de argumento con nombre deben aparecer después de haber especificado todos los argumentos fijos."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Les spécifications d'argument nommé doivent s'afficher après la spécification de tous les arguments fixes"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Le specifiche di argomenti denominati devono trovarsi dopo tutti gli argomenti fissi specificati"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "名前付き引数は、すべての固定引数を指定した後で指定する必要があります"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "명명된 인수 사양은 모든 고정 인수를 지정한 다음에 와야 합니다."
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Спецификации именованного аргумента должны появляться во всех указанных фиксированных аргументах"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "命名参数规范必须出现在所有指定的固定参数后"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "具名引數規格必須出現在所有已指定的固定引數之後"
+      }
+    },
+    "BadNamedArgument": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Die beste Überladung für {0} enthält keinen Parameter mit dem Namen \"{1}\"."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "La mejor sobrecarga para '{0}' no tiene un parámetro denominado '{1}'"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "La meilleure surcharge pour '{0}' n'a pas de paramètre nommé '{1}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Il miglior overload per '{0}' non contiene un parametro denominato '{1}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' に最も適しているオーバーロードには '{1}' という名前のパラメーターがありません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}'에 가장 적합한 오버로드에 '{1}' 매개 변수가 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "The best overload for '{0}' does not have a parameter named '{1}'"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Наиболее подходящий перегруженный метод для \"{0}\" не имеет параметра \"{1}\""
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "“{0}”的最佳重载没有名为“{1}”的参数"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' 的最佳多載沒有一個名為 '{1}' 的參數"
+      }
+    },
+    "BadNamedArgumentForDelegateInvoke": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Der Delegat \"{0}\" enthält keinen Parameter mit dem Namen \"{1}\"."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "El delegado '{0}' no tiene un parámetro denominado '{1}'"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Le délégué '{0}' n'a pas de paramètre nommé '{1}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Il delegato '{0}' non dispone di un parametro denominato '{1}'"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "デリゲート '{0}' には '{1}' という名前のパラメーターがありません"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' 대리자에 '{1}' 매개 변수가 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "The delegate '{0}' does not have a parameter named '{1}'"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Делегат \"{0}\" не имеет параметра \"{1}\""
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "委托“{0}”没有名为“{1}”的参数"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "委派 '{0}' 沒有一個名為 '{1}' 的參數"
+      }
+    },
+    "DuplicateNamedArgument": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Das benannte {0}-Argument kann nicht mehrmals angegeben werden."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "El argumento con nombre '{0}' no se puede especificar varias veces"
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "Impossible de spécifier plusieurs fois l'argument nommé '{0}'"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "Impossibile specificare l'argomento denominato '{0}' più volte"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "'{0}' という名前付き引数が複数指定されました"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "명명된 인수 '{0}'을(를) 여러 번 지정할 수 없습니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Named argument '{0}' cannot be specified multiple times"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Не удается задать именованный аргумент \"{0}\" несколько раз"
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "不能多次指定所命名的参数“{0}”。"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "具名引數 '{0}' 不可以多次指定"
+      }
+    },
+    "NamedArgumentUsedInPositional": {
+      "de": {
+        "xmlSpace": "preserve",
+        "value": "Das benannte {0}-Argument legt einen Parameter fest, für den bereits ein positionelles Argument angegeben wurde."
+      },
+      "es": {
+        "xmlSpace": "preserve",
+        "value": "El argumento con nombre '{0}' especifica un parámetro para el que ya se ha proporcionado un argumento posicional."
+      },
+      "fr": {
+        "xmlSpace": "preserve",
+        "value": "L'argument nommé '{0}' spécifie un paramètre pour lequel un paramètre positionnel a déjà été donné"
+      },
+      "it": {
+        "xmlSpace": "preserve",
+        "value": "L'argomento denominato '{0}' specifica un parametro per cui è già stato fornito un argomento posizionale"
+      },
+      "ja": {
+        "xmlSpace": "preserve",
+        "value": "名前付き引数 '{0}' は、場所引数が既に指定されているパラメーターを指定します"
+      },
+      "ko": {
+        "xmlSpace": "preserve",
+        "value": "명명된 인수 '{0}'은(는) 위치 인수가 이미 지정된 매개 변수를 지정합니다."
+      },
+      "default": {
+        "xmlSpace": "preserve",
+        "value": "Named argument '{0}' specifies a parameter for which a positional argument has already been given"
+      },
+      "ru": {
+        "xmlSpace": "preserve",
+        "value": "Именованный аргумент \"{0}\" задает параметр, для которого уже был установлен позиционный аргумент."
+      },
+      "zh-Hans": {
+        "xmlSpace": "preserve",
+        "value": "命名实参“{0}”指定的形参已被赋予位置实参"
+      },
+      "zh-Hant": {
+        "xmlSpace": "preserve",
+        "value": "具名引數 '{0}' 指定了已給定位置引數的參數"
+      }
+    }
+  }
+}
